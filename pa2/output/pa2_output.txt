@@ -1,0 +1,296 @@
+Input Dirty Data: 
+       sepal length  sepal width  petal length  petal width  New Feature 1  \
+count    147.000000   147.000000    147.000000   149.000000     148.000000   
+mean       5.845578     3.053741      3.751701     1.205369       1.375071   
+std        0.834958     0.437188      1.760151     0.761292       0.135347   
+min        4.300000     2.000000      1.000000     0.100000       1.120668   
+25%        5.100000     2.800000      1.600000     0.300000       1.270109   
+50%        5.800000     3.000000      4.300000     1.300000       1.382528   
+75%        6.400000     3.300000      5.100000     1.800000       1.473925   
+max        7.900000     4.400000      6.900000     2.500000       1.685578   
+
+       New Feature 2       class  
+count     148.000000  150.000000  
+mean        3.523958    2.000000  
+std         0.900837    0.819232  
+min         1.976229    1.000000  
+25%         2.745057    1.000000  
+50%         3.441192    2.000000  
+75%         4.364670    3.000000  
+max         5.104838    3.000000  
+
+
+
+Cleaned Data: 
+       sepal length  sepal width  petal length  petal width  New Feature 1  \
+count    150.000000   150.000000    150.000000   150.000000     150.000000   
+mean       5.845578     3.053741      3.760519     1.198966       1.374936   
+std        0.831734     0.434523      1.764786     0.762775       0.134441   
+min        4.300000     2.000000      1.000000     0.100000       1.120668   
+25%        5.100000     2.800000      1.600000     0.300000       1.271233   
+50%        5.800000     3.000000      4.350000     1.300000       1.375983   
+75%        6.400000     3.300000      5.100000     1.800000       1.472999   
+max        7.900000     4.400000      6.900000     2.500000       1.685578   
+
+       New Feature 2       class  
+count     150.000000  150.000000  
+mean        3.516845    2.000000  
+std         0.898696    0.819232  
+min         1.976229    1.000000  
+25%         2.732408    1.000000  
+50%         3.441192    2.000000  
+75%         4.353709    3.000000  
+max         5.104838    3.000000  
+
+
+
+Data Normalized: 
+       sepal length  sepal width  petal length  petal width  New Feature 1  \
+count    150.000000   150.000000    150.000000   150.000000     150.000000   
+mean       0.429327     0.439059      0.467885     0.457902       0.450104   
+std        0.231037     0.181051      0.299116     0.317823       0.237987   
+min        0.000000     0.000000      0.000000     0.000000       0.000000   
+25%        0.222222     0.333333      0.101695     0.083333       0.266529   
+50%        0.416667     0.416667      0.567797     0.500000       0.451956   
+75%        0.583333     0.541667      0.694915     0.708333       0.623693   
+max        1.000000     1.000000      1.000000     1.000000       1.000000   
+
+       New Feature 2       class  
+count     150.000000  150.000000  
+mean        0.492428    2.000000  
+std         0.287251    0.819232  
+min         0.000000    1.000000  
+25%         0.241698    1.000000  
+50%         0.468247    2.000000  
+75%         0.759916    3.000000  
+max         1.000000    3.000000  
+
+
+
+Features Generated: 
+       sepal length  sepal width  petal length  petal width  New Feature 1  \
+count    150.000000   150.000000    150.000000   150.000000     150.000000   
+mean       0.429327     0.439059      0.467885     0.457902       0.450104   
+std        0.231037     0.181051      0.299116     0.317823       0.237987   
+min        0.000000     0.000000      0.000000     0.000000       0.000000   
+25%        0.222222     0.333333      0.101695     0.083333       0.266529   
+50%        0.416667     0.416667      0.567797     0.500000       0.451956   
+75%        0.583333     0.541667      0.694915     0.708333       0.623693   
+max        1.000000     1.000000      1.000000     1.000000       1.000000   
+
+       New Feature 2       class  sepal area  petal area  
+count     150.000000  150.000000  150.000000  150.000000  
+mean        0.492428    2.000000    0.183582    0.305224  
+std         0.287251    0.819232    0.124883    0.268687  
+min         0.000000    1.000000    0.000000    0.000000  
+25%         0.241698    1.000000    0.086806    0.005826  
+50%         0.468247    2.000000    0.162037    0.283545  
+75%         0.759916    3.000000    0.263310    0.521186  
+max         1.000000    3.000000    0.750000    0.916667  
+
+
+
+Outlier rows/columns for setosa: 
+    sepal area  petal width  petal area
+15    0.388889     0.125000    0.010593
+43    0.121528     0.208333    0.021186
+43    0.121528     0.208333    0.021186
+Outlier rows/columns for versicolor: 
+Empty DataFrame
+Columns: []
+Index: []
+Outlier rows/columns for virginica: 
+    sepal area  sepal area
+17    0.708333    0.708333
+31    0.750000    0.750000
+Outliers Removed: 
+       sepal length  sepal width  petal length  petal width  New Feature 1  \
+count    146.000000   146.000000    146.000000   146.000000     146.000000   
+mean       0.423776     0.429684      0.466540     0.456749       0.448068   
+std        0.224393     0.172781      0.294801     0.317230       0.239761   
+min        0.000000     0.000000      0.000000     0.000000       0.000000   
+25%        0.222222     0.333333      0.101695     0.083333       0.263794   
+50%        0.416667     0.416667      0.567797     0.500000       0.441183   
+75%        0.583333     0.541667      0.694915     0.708333       0.623693   
+max        0.944444     0.916667      1.000000     1.000000       1.000000   
+
+       New Feature 2  sepal area  petal area       class  
+count     146.000000  146.000000  146.000000  146.000000  
+mean        0.491602    0.175127    0.302616    2.000000  
+std         0.282910    0.107354    0.264193    0.813676  
+min         0.000000    0.000000    0.000000    1.000000  
+25%         0.247805    0.081597    0.005650    1.000000  
+50%         0.468247    0.159722    0.283545    2.000000  
+75%         0.751775    0.254630    0.518008    3.000000  
+max         1.000000    0.537037    0.916667    3.000000  
+
+
+
+Feature Ranking scores: 
+                     0
+petal width  29.672056
+petal area   29.743969
+
+
+
+PCA Transformed Data: 
+                  0             1       class
+count  1.460000e+02  1.460000e+02  146.000000
+mean   1.319340e-16 -6.463627e-17    2.000000
+std    6.056959e-01  2.541846e-01    0.813676
+min   -9.093853e-01 -4.878496e-01    1.000000
+25%   -7.237276e-01 -2.043895e-01    1.000000
+50%    8.811366e-02  5.863115e-03    2.000000
+75%    5.146313e-01  1.608060e-01    3.000000
+max    1.050044e+00  5.786426e-01    3.000000
+
+
+
+GaussianMixture(covariance_type='full', init_params='kmeans', max_iter=100,
+        means_init=None, n_components=3, n_init=1, precisions_init=None,
+        random_state=2, reg_covar=1e-06, tol=0.001, verbose=0,
+        verbose_interval=10, warm_start=False, weights_init=None)
+Expectation Maximization Score: -0.638117202764471
+Expectation Maximization Report: 
+             precision    recall  f1-score   support
+
+          1       0.00      0.00      0.00        11
+          2       0.00      0.00      0.00        11
+          3       0.00      0.00      0.00         8
+
+avg / total       0.00      0.00      0.00        30
+
+
+LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+              solver='svd', store_covariance=False, tol=0.0001)
+Linear Discriminant Analysis Score: 1.0
+Linear Discriminant Analysis Report: 
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00        11
+          2       1.00      1.00      1.00        11
+          3       1.00      1.00      1.00         8
+
+avg / total       1.00      1.00      1.00        30
+
+
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=2, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=False,
+       warm_start=False)
+Neural Network Score: 1.0
+Neural Network Report: 
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00        11
+          2       1.00      1.00      1.00        11
+          3       1.00      1.00      1.00         8
+
+avg / total       1.00      1.00      1.00        30
+
+
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True,
+  tol=0.001, verbose=False)
+Support Vector Machine Score: 1.0
+Support Vector Machine Report: 
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00        11
+          2       1.00      1.00      1.00        11
+          3       1.00      1.00      1.00         8
+
+avg / total       1.00      1.00      1.00        30
+
+
+
+
+
+Input Original Data: 
+       sepal length  sepal width  petal length  petal width  New Feature 1  \
+count    150.000000   150.000000    150.000000   150.000000     150.000000   
+mean       5.843333     3.054000      3.758667     1.198667       1.374163   
+std        0.828066     0.433594      1.764420     0.763161       0.134664   
+min        4.300000     2.000000      1.000000     0.100000       1.120668   
+25%        5.100000     2.800000      1.600000     0.300000       1.271233   
+50%        5.800000     3.000000      4.350000     1.300000       1.375983   
+75%        6.400000     3.300000      5.100000     1.800000       1.472999   
+max        7.900000     4.400000      6.900000     2.500000       1.685578   
+
+       New Feature 2       class  
+count     150.000000  150.000000  
+mean        3.518601    2.000000  
+std         0.897509    0.819232  
+min         1.976229    1.000000  
+25%         2.732408    1.000000  
+50%         3.441192    2.000000  
+75%         4.353709    3.000000  
+max         5.104838    3.000000  
+
+
+
+GaussianMixture(covariance_type='full', init_params='kmeans', max_iter=100,
+        means_init=None, n_components=3, n_init=1, precisions_init=None,
+        random_state=2, reg_covar=1e-06, tol=0.001, verbose=0,
+        verbose_interval=10, warm_start=False, weights_init=None)
+Expectation Maximization Score: -0.1677768084711587
+Expectation Maximization Report: 
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00        14
+          2       1.00      1.00      1.00         8
+          3       0.00      0.00      0.00         8
+
+avg / total       0.73      0.73      0.73        30
+
+
+LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+              solver='svd', store_covariance=False, tol=0.0001)
+Linear Discriminant Analysis Score: 1.0
+Linear Discriminant Analysis Report: 
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00        14
+          2       1.00      1.00      1.00         8
+          3       1.00      1.00      1.00         8
+
+avg / total       1.00      1.00      1.00        30
+
+
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=2, shuffle=True,
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=False,
+       warm_start=False)
+Neural Network Score: 0.9666666666666667
+Neural Network Report: 
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00        14
+          2       0.89      1.00      0.94         8
+          3       1.00      0.88      0.93         8
+
+avg / total       0.97      0.97      0.97        30
+
+
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=2, shrinking=True,
+  tol=0.001, verbose=False)
+Support Vector Machine Score: 1.0
+Support Vector Machine Report: 
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00        14
+          2       1.00      1.00      1.00         8
+          3       1.00      1.00      1.00         8
+
+avg / total       1.00      1.00      1.00        30
+
+
